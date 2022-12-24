@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>实验3-5</title>
+	<style type="text/css">
+.login {
+	margin:0 auto;
+	width:280px;
+	padding:14px;
+	border: dashed 2px #b7ddf2;
+	background:#ebf4fb;
+}
+.login * {
+	margin:0;
+	padding:0;
+	font-family:"宋体";
+	font-size:12px;
+	line-height:1.5em;
+}
+.login h2 {
+	text-align:center;
+	font-size:18px;
+	font-weight:bold;
+	margin-bottom:10px;
+	padding-bottom:5px;
+	border-bottom:solid 1px #b7ddf2;
+}
+.login .content {
+	padding:5px;
+}
+.login .frm_cont {
+	margin-bottom:8px;
+}
+.login .username input, .login .password input {
+	width:180px;
+	height:18px;
+	padding:2px 0px 2px 18px;
+	border:solid 1px #aacfe4;
+}
+.login .username input {
+	background:#FFF url(images/username_bg.jpg) no-repeat left center;
+}
+.login .password input {
+	background:#FFF url(images/password_bg.jpg) no-repeat left center;
+}
+.login .btns {
+	text-align:center;
+}
+</style>
+</head>
+
+<body>
+	<div class="login">
+  <h2>用户登录</h2>
+  <div class="content">
+    <form action="" method="post">
+      <div class="frm_cont username">用户名：
+        <label for="username"></label>
+        <input type="text" name="username" id="username" />
+      </div>
+      <div class="frm_cont password">密&nbsp;码：
+        <label for="password"></label>
+        <input type="password" name="password" id="password" />
+      </div>
+      <div class="btns">
+        <input type="submit" name="button1" id="button1" value="登录" />
+        <input type="button" name="button2"id="button2" value="注册" />
+      </div>
+    </form>
+  </div>
+</div>
+</body>
+</html>
