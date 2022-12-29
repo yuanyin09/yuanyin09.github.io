@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>实验七第一题</title>
+</head>
+<title>计算三个整数的平均值</title>
+  <meta charset="utf-8">
+  <script type="text/javascript">
+function show(){
+    //利用document对象，获得页面中文本框中的输入值
+	let v1=parseInt(document.getElementById('v1').value);
+	let v2=parseInt(document.getElementById('v2').value);
+	let v3=parseInt(document.getElementById('v3').value);
+	let aver=(v1+v2+v3)/3;//调用compute函数计算对应的面积
+	alert("平均值为："+aver);
+}
+</script>
+<body>
+	<form>
+  <label>输入三个整数：</label><br>
+  <label for="v1"></label><input type="number" name="v1" id="v1"><br>
+  <label for="v2"></label><input type="number" name="v2" id="v2"><br>
+  <label for="v3"></label><input type="number" name="v3" id="v3"><br>
+  <input type="button" value="计算平均值!" onclick="show()" >
+</form>
+</body>
+</html>
